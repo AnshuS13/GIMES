@@ -1,0 +1,13 @@
+# Virtual Environment
+gimes_env/
+
+# YOLO Model
+yolo11n.pt
+
+# Sample Media
+bus.jpg
+crowd.mp4
+
+# Python Cache
+__pycache__/
+*.pyc

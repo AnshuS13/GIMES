@@ -11,3 +11,9 @@ crowd.mp4
 # Python Cache
 __pycache__/
 *.pyc
+
+# Backend virtual environment
+backend/venv/
+
+# Environment variables
+backend/.env

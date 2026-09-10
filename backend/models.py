@@ -8,3 +8,13 @@ class CrowdUpdate(BaseModel):
 
 class SensorUpdate(BaseModel):
     vibration_detected: bool
+
+class DecisionResponse(BaseModel):
+    action: int
+    description: str
+    timestamp: str
+
+class AlertPayload(BaseModel):
+    action_taken: int
+    alert_text: str
+    language: str
